@@ -1,0 +1,265 @@
+<!DOCTYPE html>  
+
+<html>  
+
+  <head>  
+    <meta charset=utf-8 />  
+    <title>InspireMe</title>  
+    <link rel="stylesheet" type="text/css" href="main.css"> 
+  </head>  
+
+  <body>  
+    <div>
+      <h1 class="title">inspire me.</h1>
+      <p class="title">your daily dose of motivation and empowerment.</p>
+      <center><img id="crown" src="http://cdn.shopify.com/s/files/1/0185/5092/products/persons-0146.png?v=1369543441" 
+        alt="crown emoji" width="200px" height="160px"></center>
+    </div>
+    
+    <center id="inspirebutton">
+      <button id="jsstyle" onclick="display_random_image();">inspire me!</button>
+    </center>
+  
+    <script>
+      function display_random_image() 
+      {
+        var theImages = [{
+          src: "http://www.jojopix.info/wp-content/uploads/2014/12/A-Smile-Inspiration-Quotes-Photo.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "http://www.dumpaday.com/wp-content/uploads/2013/01/inspirational-quotes-adjust-your-sails.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "http://images.fromupnorth.com/224/5021034407ce4.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/236x/4b/9e/cb/4b9ecb25f004a6458a1bd6f65706f6c0.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/736x/38/d5/cb/38d5cb24ea3e09cd88c33198971447d8.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/736x/47/1a/ec/471aecda4448974315c29016b7ca12e7.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/736x/93/f6/93/93f69382c7658d56f75c9a87d460406d.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/736x/75/dc/57/75dc57f6613fb311355c98a37b155319.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/736x/9b/48/fa/9b48fa6ec6744e5a5fae88c2a58c0f71.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/736x/ec/0d/b3/ec0db32caf98e72a86e4f6a6d236e37f.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/736x/96/41/79/9641792f071aedfb52d4aa5fd7e6c06f.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/736x/43/66/8c/43668c43fbfbff43a8df3b342fdd73b9.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/736x/fb/5a/b0/fb5ab0b581630b4a0b9fc49510e2ab69.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "http://www.say-itwear.com/wp-content/uploads/2015/04/tumblr_mtdh4sWzOt1sbafcao1_500.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "http://36.media.tumblr.com/17a068a2eb532b47522993df40e9cc91/tumblr_n3u8wfZ6kF1qjm9bpo1_500.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "http://s3.amazonaws.com/bedsider/features/744/large_images/xlarge.png?1438806810",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/736x/74/6f/91/746f91cb99fdf45278bf09debcf9a096.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/736x/7a/a6/52/7aa652c4658776b1821139d78faa0f78.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/474x/c8/43/59/c84359b60f0e676a5b64c6ddd162f349.jpg",
+          width: "500",
+          height: "500"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/736x/77/32/4a/77324a3dc4d30013551478085e119b7b.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/736x/bc/ea/d3/bcead3d73aeb60614362b071081366aa.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/736x/0a/e5/44/0ae5446c148b94c69b58cb192b57b7fb.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/736x/44/80/7e/44807e76d11fadef5f84bbba7188285f.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/736x/84/10/ca/8410ca35ab63735c81422fcafe33888a.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/736x/58/ac/1c/58ac1c1ec3f7218ba0374cd9e750b11e.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/736x/3d/04/e9/3d04e94bf46bd2290e9987244ff7fdb1.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/736x/05/f6/86/05f686eb4f49dd1b54b0cda34be53e7d.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/736x/a5/34/16/a534162e39dc302adb13f515657fe3d7.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/236x/1a/bf/b6/1abfb6edda8e9d3f77d5fb2f4ffb0b29.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/736x/77/a2/e7/77a2e7a663078ce25a3a618e35890791.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "http://d.gr-assets.com/quotes/1394454182p8/416091.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "http://levoleague-wordpress.s3.amazonaws.com/wp-content/uploads/2015/03/motivational-quotes-harriet-beecher-stowe-900.png",
+          width: "500",
+          height: "600"
+        }, {
+          src: "http://media-cache-ec0.pinimg.com/237x/71/08/a6/7108a6ff74c64dae36be571adb9f6060.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/736x/a2/19/e3/a219e363a590d22e89d77eed41a8412d.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "http://omgcutethings.com/wp-content/uploads/2013/06/inspirational-quotes-025-06032013.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "http://www.onegirl.org.au/wp-content/uploads/2014/03/c3507fad61007fc9b45a50515235ed03.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "http://1.bp.blogspot.com/-AdsfRj-iKlQ/U-gBm2sVsqI/AAAAAAAAGrA/xyj3DaeYTIQ/s1600/coco+channel+quote.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://www-media.fanlala.com/sites/default/files/content/03/08/15/alli-simpson-womens-day-instagram.png",
+          width: "500",
+          height: "600"
+        }, {
+          src: "http://media-cache-ak0.pinimg.com/236x/8c/4d/0b/8c4d0bd3a557d726353cf57d9b23e6c3.jpg",
+          width: "500",
+          height: "621"
+        }, {
+          src: "http://joannehus.com/wp-content/uploads/2014/01/dropRumiQuote-lg.jpg",
+          width: "500",
+          height: "600"
+        }, {
+          src: "https://s-media-cache-ak0.pinimg.com/236x/b9/d2/48/b9d248e0c6b123d648c2769de238e790.jpg",
+          width: "500",
+          height: "600"
+        }
+        ];
+    
+        var preBuffer = [];
+        for (var i = 0, j = theImages.length; i < j; i++) {
+          preBuffer[i] = new Image();
+          preBuffer[i].src = theImages[i].src;
+          preBuffer[i].width = theImages[i].width;
+          preBuffer[i].height = theImages[i].height;
+        }
+   
+        // create random image number
+        function getRandomInt(min,max) 
+        {
+        //  return Math.floor(Math.random() * (max - min + 1)) + min;
+    
+        imn = Math.floor(Math.random() * (max - min + 1)) + min;
+          return preBuffer[imn];
+        }  
+
+        // 0 is first image,   (preBuffer.length - 1) is  last image
+  
+        var newImage = getRandomInt(0, preBuffer.length - 1);
+ 
+        // remove the previous images
+        var images = document.getElementsByTagName('img');
+        var l = images.length;
+        for (var p = 0; p < l; p++) 
+        {
+          images[0].parentNode.removeChild(images[0]);
+        }
+        
+                          
+        //create flexbox
+        var flexbox = document.createElement('div');
+        flexbox.className = 'flexbox';
+        
+        
+        var item = document.createElement('div');
+        item.className = 'item';
+        
+        item.appendChild(newImage);
+        
+        flexbox.appendChild(item);
+        
+        
+        document.getElementById("empty").appendChild(flexbox);
+        // display the image  
+        
+      }
+    
+    </script>
+  
+    <div id="empty"></div>
+  
+    <center>
+      <p id="call">inspired? share with your friends:</p>
+    </center>
+  
+    <div id="media"><center>
+      <span class='st_facebook_large' displayText='Facebook'></span>
+      <span class='st_twitter_large' displayText='Tweet'></span>
+      <span class='st_tumblr_large' displayText='Tumblr'></span>
+      <span class='st_pinterest_large' displayText='Pinterest'></span>
+      <span class='st_email_large' displayText='Email'></span>
+    </center></div>
+    
+    <script type="text/javascript">var switchTo5x = true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options
+      ({publisher: "59c0bfea-bae1-4f05-b009-3881f0a386fb", doNotHash: false, doNotCopy: false, hashAddressBar: false});
+    </script>
+
+  </body>  
+
+</html>

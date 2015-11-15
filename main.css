@@ -1,0 +1,67 @@
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+
+body { 
+  background: #D6EDFF;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 35pt;
+  font-weight: 300;
+  line-height: 1.75em;
+  color: #8B95C9;
+}
+
+button {
+  background-color: #C6CAED;
+  color: white;
+  text-align: center;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  font-weight: 300;
+  letter-spacing: 0.09em;
+  line-height: 1.65em;
+  margin-top: 0.2em;
+  margin-bottom: 2.5em;
+  border-radius:0.75em;
+}
+
+.title {
+  color: #C71585;
+  line-height: 0.3;
+  padding: 4;
+  font-family: "Source Sans Pro", Helvetica;
+  text-align: center;
+}
+
+h1 {
+  font-size: 72pt;
+}
+
+p {
+  font-size: 28pt;
+}
+
+.image {
+  text-align: center;
+}
+
+.flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#media{
+  line-height:0.3em;
+  margin-bottom: 50px;
+}
+
+#call {
+  color: #C71585;
+  font-size: 12pt;
+  line-height:0.3em;
+  padding-top:0.3em;
+  padding-bottom:0.55em;
+}
+
+#inspirebutton {
+  padding-top: 0.3em;
+}
